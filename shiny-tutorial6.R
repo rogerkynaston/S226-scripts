@@ -50,4 +50,8 @@ plot(Omega_ar~Year, data=omega, type="l",
      )
 abline(fit, col="green")
 
+# now we calculate the date when we will reach the critical omega value
+x = (2.75-17.434098)/-0.007171
+cat("We will reach the omega_ar value of 2.75 in:", x)
+
 
