@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 # Read in csv to variable
-data <- read.csv("~/TMA01/data/TMA01_data_26J.csv")
+data <- read.csv("/Volumes/kynastonnas/roger/OU/S226/scripts/S226-scripts/data/TMA01_data_26J.csv")
 
 str(data)
 
